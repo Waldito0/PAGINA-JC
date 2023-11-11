@@ -1,0 +1,1 @@
+const entrada = document.getElementById

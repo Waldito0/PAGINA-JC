@@ -1,0 +1,366 @@
+.container{
+    background-color: #5A07DF;
+}
+.header{
+    
+    position: sticky;
+    background: #5A07DF;
+    padding-block-end: 20px ;
+    top: 0;
+    left: 0;
+    right: 0 ;
+    padding: 10px;
+
+    
+}
+
+.nav__list{
+
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   
+    
+}
+.nav__item{
+    color: #5A07DF;
+    border-bottom: 20px solid white;
+    border: 20px solid white;
+    border-radius: 20px;
+    
+    
+}
+.nav__link{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    animation: both;
+   
+}
+.grid_inicio{display: grid;
+    grid-template-columns: repeat(3,0fr);
+    grid-auto-rows: minmax(10px, auto);
+    grid-gap: 95px;
+    align-content: space-between;
+    align-content: center;
+
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid aqua;
+
+}  
+    td{
+        border-collapse: collapse;
+        border: 3px solid aqua;
+
+    }
+    .Celdas{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        grid-auto-rows: minmax(10px, auto);
+        grid-gap: 25px;
+        align-content: center;
+    }   
+    #nav__logo{
+        width: 58px;
+        height: 58px;
+
+    }
+
+.caption{
+    font-family: fantasy;
+    background-color: azure;
+    
+}
+.catalogo{
+    
+   
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+   
+}
+#cuadricula{
+    display: block;
+    background-color: aliceblue;
+    margin: auto;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    grid-auto-rows: minmax(10px, auto);
+    grid-gap: 25px;
+    align-content: center;
+}
+.grid_item{
+    border: 1px solid bisque;
+    font-family: fantasy;
+    font-size: medium;
+    background-color: aliceblue;
+}
+#imagen{width: 340px; 
+height: 510px;}
+
+#Nombre{
+    font-family: monospace;
+    border-radius: 25px;
+    height: 35px;
+}
+#Apellido{
+    font-family: monospace;
+    border-radius: 25px;
+    height: 35px;
+    
+}
+#Correo{
+    font-family: monospace;
+    border-radius: 25px;
+    height: 35px;
+}
+#Contraseña{
+    font-family: monospace;
+    border-radius: 25px;
+    height: 35px;
+}
+#Enviar{
+    height: 35px;
+    border-radius: 10px;
+    border-bottom: -105px;
+    border-color: aqua;
+    background-color: rgb(0, 243, 252);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background: aqua;
+    padding-block-end: 20px ;
+    padding-left: 171px;
+    width: 1000px;
+    top: 10px;
+    right: 100px;
+   
+    width: 1402px;
+  
+
+}
+.Caja{
+   
+
+    font-family: fantasy;
+    font-size: larger;
+    background-color: #5A07DF;
+
+
+}
+.Registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.footer__palabras{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.logos{
+    width: 20px;
+}
+.InicioSesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Iniciar{
+    border-radius: 15px;
+    height: 35px;
+    border-bottom: -115px;
+    background: -webkit-linear-gradient(aqua, rgb(21, 255, 52));
+    
+
+}
+@media screen and (max-width: 416px){
+    .container{
+        background-color: #5A07DF;
+    }
+    .header{
+        
+        position: sticky;
+        background: #5A07DF;
+        padding-block-end: 20px ;
+        top: 0;
+        left: 0;
+        right: 0 ;
+        padding: 10px;
+    
+        
+    }
+    
+    .nav__list{
+    
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       
+        
+    }
+    .nav__item{
+        color: #5A07DF;
+        border-bottom: 20px solid white;
+        border: 20px solid white;
+        border-radius: 20px;
+        
+        
+    }
+    .nav__link{
+        background-color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        animation: both;
+       
+    }
+    .grid_inicio{display: grid;
+        grid-template-columns: repeat(3,0fr);
+        grid-auto-rows: minmax(10px, auto);
+        grid-gap: 95px;
+        align-content: space-between;
+        align-content: center;
+    
+    }
+    table{
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 3px solid aqua;
+    
+    }  
+        td{
+            border-collapse: collapse;
+            border: 3px solid aqua;
+    
+        }
+        .Celdas{
+            display: grid;
+            grid-template-columns: repeat(3,0fr);
+            grid-auto-rows: minmax(10px, auto);
+            grid-gap: 25px;
+            align-content: center;
+        }   
+        #nav__logo{
+            width: 58px;
+            height: 58px;
+    
+        }
+    
+    .caption{
+        font-family: fantasy;
+        background-color: azure;
+        
+    }
+    .catalogo{
+        
+       
+        text-align: center;
+        background-color: rgb(245, 245, 245);
+       
+    }
+    #cuadricula{
+        display: block;
+        background-color: aliceblue;
+        margin: auto;
+    
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        grid-auto-rows: minmax(10px, auto);
+        grid-gap: 25px;
+        align-content: center;
+    }
+    .grid_item{
+        border: 1px solid bisque;
+        font-family: fantasy;
+        font-size: medium;
+        background-color: aliceblue;
+    }
+    #imagen{width: 340px; 
+    height: 510px;}
+    
+    #Nombre{
+        font-family: monospace;
+        border-radius: 25px;
+        height: 35px;
+    }
+    #Apellido{
+        font-family: monospace;
+        border-radius: 25px;
+        height: 35px;
+        
+    }
+    #Correo{
+        font-family: monospace;
+        border-radius: 25px;
+        height: 35px;
+    }
+    #Contraseña{
+        font-family: monospace;
+        border-radius: 25px;
+        height: 35px;
+    }
+    #Enviar{
+        height: 35px;
+        border-radius: 10px;
+        border-bottom: -105px;
+        border-color: aqua;
+        background-color: rgb(0, 243, 252);
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        background: aqua;
+        padding-block-end: 20px ;
+        padding-left: 171px;
+        width: 1000px;
+        top: 10px;
+        right: 100px;
+       
+        width: 1402px;
+      
+    
+    }
+    .Caja{
+       
+    
+        font-family: fantasy;
+        font-size: larger;
+        background-color: #5A07DF;
+    
+    
+    }
+    .Registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .footer__palabras{
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .logos{
+        width: 20px;
+    }
+ }
